@@ -20,6 +20,21 @@ The goal is to provide **insights that could support credit risk assessment in a
 
 ---
 
+## Dataset
+
+The dataset contains loan application information including:
+
+- Loan amount
+- Credit score
+- Borrower income
+- Property value
+- Loan type
+- Region
+
+The dataset is used to analyze borrower characteristics and potential credit risk indicators.
+
+---
+
 ## Tools & Technologies
 
 * Python (Pandas, Matplotlib)
@@ -32,11 +47,18 @@ The goal is to provide **insights that could support credit risk assessment in a
 
 ## Project Structure
 
-```
-loan-default-risk-analysis
+LOAN-DEFAULT-RISK-ANALYSIS
+│
+├── dashboard
+│   ├── loan_dashboard_data.csv
+│   ├── loan_dashboard.pbix
+│   └── loan_dashboard.png
 │
 ├── data
-│   └── loan_dataset.csv
+│   └── loan_data.csv
+│
+├── database
+│   └── loan.db
 │
 ├── notebooks
 │   └── loan_analysis.ipynb
@@ -44,12 +66,9 @@ loan-default-risk-analysis
 ├── sql
 │   └── loan_analysis.sql
 │
-├── dashboard
-│   ├── loan_dashboard.pbix
-│   └── dashboard_preview.png
 │
 └── README.md
-```
+
 
 ---
 
@@ -104,7 +123,7 @@ Main dashboard components:
 
 ## Dashboard Preview
 
-![Dashboard](dashboard/dashboard_preview.png)
+![Dashboard](dashboard/loan_dashboard.png)
 
 ---
 
